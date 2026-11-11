@@ -1,0 +1,23 @@
+{
+  "description": "Operational settings. Any key left out falls back to the built-in default shown in docs/security-considerations.md.",
+  "joiner": {
+    "leadDays": 3,
+    "passwordLength": 20
+  },
+  "leaver": {
+    "groupRemoval": "All",
+    "resetMfaMethods": true,
+    "requireMailboxConversionBeforeLicenceRemoval": true
+  },
+  "batch": {
+    "maxEventsPerRun": 25,
+    "maxLeaversPerRun": 5,
+    "requireApprovalReference": true
+  },
+  "audit": {
+    "directory": "./logs"
+  },
+  "output": {
+    "directory": "./output"
+  }
+}

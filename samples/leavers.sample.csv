@@ -1,0 +1,3 @@
+EventType,EffectiveDate,ApprovalReference,EmployeeId,UserPrincipalName,GivenName,Surname,Department,JobTitle,ManagerUpn,UsageLocation,OfficeLocation,MailboxConverted
+Leaver,2026-12-01,HR-4001,,jamie.okafor@northwind.example,,,,,,,,
+Leaver,2026-11-30,HR-4002,,casey.nguyen@northwind.example,,,,,,,,yes

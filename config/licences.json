@@ -1,0 +1,13 @@
+{
+  "description": "Licensing is group based. Adding a user to a licence group assigns the licence; removing them reclaims it. Licence group names are examples.",
+  "licenceGroups": [
+    "NW-Lic-Standard",
+    "NW-Lic-Frontline",
+    "NW-Lic-Premium"
+  ],
+  "defaultLicenceGroup": "NW-Lic-Standard",
+  "departmentOverrides": [
+    { "department": "Warehouse", "licenceGroup": "NW-Lic-Frontline" },
+    { "department": "Finance", "licenceGroup": "NW-Lic-Premium" }
+  ]
+}

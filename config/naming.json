@@ -1,0 +1,9 @@
+{
+  "description": "Naming convention for new accounts. Tokens: {given}, {surname}, {givenInitial}, {employeeId}.",
+  "domain": "northwind.example",
+  "userPrincipalNameFormat": "{given}.{surname}",
+  "mailNicknameFormat": "{given}.{surname}",
+  "displayNameFormat": "{given} {surname}",
+  "maxLocalPartLength": 40,
+  "maxCollisionAttempts": 20
+}

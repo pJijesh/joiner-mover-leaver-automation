@@ -1,0 +1,3 @@
+EventType,EffectiveDate,ApprovalReference,EmployeeId,UserPrincipalName,GivenName,Surname,Department,JobTitle,ManagerUpn,UsageLocation,OfficeLocation,MailboxConverted
+Mover,2026-12-01,HR-3001,,robin.patel@northwind.example,,,Sales,Sales Manager,jordan.blake@northwind.example,,,
+Mover,2026-12-01,HR-3002,,taylor.reid@northwind.example,,,,Operations Supervisor,,,,

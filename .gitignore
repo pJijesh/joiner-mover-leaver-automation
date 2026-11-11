@@ -1,0 +1,27 @@
+# Run output: audit logs and generated checklists can hold personal data
+logs/
+output/
+*.jsonl
+batch-summary-*.json
+leaver-checklist-*.md
+
+# Test output
+test-results.xml
+TestResults.xml
+coverage.xml
+
+# Local configuration copies and secrets
+config.local/
+*.local.json
+*.pfx
+*.cer
+*.pem
+*.key
+.env
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

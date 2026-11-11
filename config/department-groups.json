@@ -1,0 +1,51 @@
+{
+  "description": "Maps HR department and job title to Entra security groups. Every group named here is 'managed' by the automation. Groups not named here are never added or removed by a Mover event.",
+  "baselineGroups": [
+    "NW-All-Staff",
+    "NW-Intranet-Readers"
+  ],
+  "departments": [
+    {
+      "name": "Finance",
+      "groups": ["NW-Dept-Finance", "NW-App-Accounting"],
+      "roles": [
+        { "titlePattern": "*Manager*", "groups": ["NW-Role-Finance-Approvers"] },
+        { "titlePattern": "*Analyst*", "groups": ["NW-Role-Finance-Reporting"] }
+      ]
+    },
+    {
+      "name": "Operations",
+      "groups": ["NW-Dept-Operations", "NW-App-Dispatch"],
+      "roles": [
+        { "titlePattern": "*Supervisor*", "groups": ["NW-Role-Ops-Supervisors"] },
+        { "titlePattern": "*Coordinator*", "groups": ["NW-Role-Ops-Coordinators"] }
+      ]
+    },
+    {
+      "name": "Sales",
+      "groups": ["NW-Dept-Sales", "NW-App-CRM"],
+      "roles": [
+        { "titlePattern": "*Manager*", "groups": ["NW-Role-Sales-Forecast-Viewers"] }
+      ]
+    },
+    {
+      "name": "People",
+      "groups": ["NW-Dept-People", "NW-App-HR-Records"],
+      "roles": []
+    },
+    {
+      "name": "IT",
+      "groups": ["NW-Dept-IT", "NW-App-ServiceDesk"],
+      "roles": [
+        { "titlePattern": "*Engineer*", "groups": ["NW-Role-IT-Engineers"] }
+      ]
+    },
+    {
+      "name": "Warehouse",
+      "groups": ["NW-Dept-Warehouse", "NW-App-Stock"],
+      "roles": [
+        { "titlePattern": "*Team Leader*", "groups": ["NW-Role-Warehouse-Leads"] }
+      ]
+    }
+  ]
+}

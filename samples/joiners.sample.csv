@@ -1,0 +1,5 @@
+EventType,EffectiveDate,ApprovalReference,EmployeeId,UserPrincipalName,GivenName,Surname,Department,JobTitle,ManagerUpn,UsageLocation,OfficeLocation,MailboxConverted
+Joiner,2026-12-03,HR-2001,NW2001,,Priya,Nair,Finance,Finance Analyst,sam.rivera@northwind.example,GB,London,
+Joiner,2026-12-03,HR-2002,NW2002,,Tomasz,Kowalski,Warehouse,Picker,jordan.blake@northwind.example,GB,Birmingham,
+Joiner,2026-12-03,HR-2003,NW2003,,Zoë,O'Neil,Operations,Operations Coordinator,jordan.blake@northwind.example,GB,London,
+Joiner,2027-02-01,HR-2004,NW2004,,Mei,Tanaka,Sales,Sales Manager,sam.rivera@northwind.example,GB,Manchester,

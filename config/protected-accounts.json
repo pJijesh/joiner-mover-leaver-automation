@@ -1,0 +1,20 @@
+{
+  "description": "Accounts and groups the automation must never modify. Break-glass (emergency access) accounts belong here. Review this file whenever a privileged or service account is created.",
+  "userPrincipalNames": [
+    "breakglass01@northwind.example",
+    "breakglass02@northwind.example"
+  ],
+  "userPrincipalNamePatterns": [
+    "breakglass*@*",
+    "svc-*@*",
+    "admin-*@*"
+  ],
+  "objectIds": [],
+  "protectedGroupNames": [
+    "NW-BreakGlass-Exclusion",
+    "NW-Privileged-Admins"
+  ],
+  "refuseIfMemberOfProtectedGroup": true,
+  "refuseIfDirectoryRoleHolder": true,
+  "refuseIfOnPremisesSynced": true
+}
