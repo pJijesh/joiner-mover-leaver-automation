@@ -125,7 +125,7 @@ Planned, not promised. Order and timing change with other work.
 
 ## Author
 
-Built by Jijesh Puliyappottammal, an IT manager. [LinkedIn](https://www.linkedin.com/in/pjijesh) | [GitHub](https://github.com/pJijesh)
+Built by Puliyappottammal Jijesh, an IT manager. [LinkedIn](https://www.linkedin.com/in/pjijesh) | [GitHub](https://github.com/pJijesh)
 
 ## Licence
 
