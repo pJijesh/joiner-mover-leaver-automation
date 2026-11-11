@@ -1,5 +1,7 @@
 # Joiner Mover Leaver Automation for Microsoft Entra ID
 
+![Joiner Mover Leaver Automation for Microsoft Entra ID: project banner](docs/images/banner.png)
+
 [![CI](https://github.com/pJijesh/joiner-mover-leaver-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/pJijesh/joiner-mover-leaver-automation/actions/workflows/ci.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) [![PowerShell 7+](https://img.shields.io/badge/PowerShell-7%2B-5391FE?logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
 
 **Problem:** When people join, change role or leave, access is usually changed by hand from emails and spreadsheets. Starters wait for the right access, movers keep access they no longer need, and leavers keep accounts, licences or sessions longer than they should, with no reliable record of who did what.

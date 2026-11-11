@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Joiner Mover Leaver Automation for Microsoft Entra ID"
+abstract: "PowerShell and Microsoft Graph automation for joiners, movers and leavers, with dry-run by default and an audit log."
+type: software
+authors:
+  - family-names: "Puliyappottammal"
+    given-names: "Jijesh"
+repository-code: "https://github.com/pJijesh/joiner-mover-leaver-automation"
+url: "https://github.com/pJijesh/joiner-mover-leaver-automation"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-11"
+keywords:
+  - automation
+  - entra-id
+  - identity-governance
+  - microsoft-graph
+  - offboarding
+  - onboarding
+  - powershell
